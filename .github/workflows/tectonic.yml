@@ -31,7 +31,7 @@ jobs:
         # Path to master file.
         file: 'zine.tex'
     - name: Save PDFs
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v2-preview
       with:
         name: 'Output'
         path: '*.pdf'
