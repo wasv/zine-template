@@ -21,12 +21,12 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
     - name: Build Pages via Tectonic
-      uses: LiHRaM/tectonic-nix@v1.0-alpha
+      uses: LiHRaM/tectonic-nix@master
       with:
         # Path to master file.
         file: 'pages.tex'
     - name: Build Zine via Tectonic
-      uses: LiHRaM/tectonic-nix@v1.0-alpha
+      uses: LiHRaM/tectonic-nix@master
       with:
         # Path to master file.
         file: 'zine.tex'
